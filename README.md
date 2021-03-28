@@ -17,3 +17,5 @@ View patterns: `npm run pl:serve`
 Patterns be here: `/source/_patterns`
 
 You can edit the files and the page will reload, and auto-generate the HTML.
+
+You can edit CSS here and see on live reload: `/source/css/style.css`
