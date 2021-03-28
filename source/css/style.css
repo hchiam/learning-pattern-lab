@@ -168,20 +168,52 @@
  * Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/
  */
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /**
  * 1) Zero out margins and padding for elements
  */
-html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
+html,
+body,
+div,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+form,
+legend,
+label,
+table,
+header,
+footer,
+nav,
+section,
+figure {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * 1) Set HTML5 elements to display: block
  */
-header, footer, nav, section, article, figure {
-  display: block; }
+header,
+footer,
+nav,
+section,
+article,
+figure {
+  display: block;
+}
 
 /*------------------------------------*\
     #BODY
@@ -193,7 +225,8 @@ header, footer, nav, section, article, figure {
  */
 html {
   min-height: 100vh;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * Body base styles
@@ -209,7 +242,8 @@ body {
   -webkit-text-size-adjust: 100%;
   /* 1 */
   background-color: #fff;
-  color: #131313; }
+  color: #131313;
+}
 
 /*------------------------------------*\
     #LINKS
@@ -221,13 +255,18 @@ a {
   color: #444;
   text-decoration: none;
   outline: 0;
-  transition: color 0.15s ease-out; }
-  a:hover, a:focus {
-    color: #808080; }
-  a:active {
-    color: #131313; }
-  a:visited {
-    color: #131313; }
+  transition: color 0.15s ease-out;
+}
+a:hover,
+a:focus {
+  color: #808080;
+}
+a:active {
+  color: #131313;
+}
+a:visited {
+  color: #131313;
+}
 
 /*------------------------------------*\
     #LISTS
@@ -238,8 +277,10 @@ a {
 /**
   * Remove list styles from unordered and ordered lists
   */
-ol, ul {
-  list-style: none; }
+ol,
+ul {
+  list-style: none;
+}
 
 /*------------------------------------*\
     #HEADINGS
@@ -250,7 +291,8 @@ ol, ul {
 h1 {
   font-size: 3rem;
   font-weight: normal;
-  line-height: 1.2; }
+  line-height: 1.2;
+}
 
 /**
  * Heading 2 base styles
@@ -258,7 +300,8 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: normal;
-  line-height: 1.2; }
+  line-height: 1.2;
+}
 
 /**
  * Heading 3 base styles
@@ -266,7 +309,8 @@ h2 {
 h3 {
   font-size: 1.2rem;
   font-weight: normal;
-  line-height: 1.2; }
+  line-height: 1.2;
+}
 
 /**
  * Heading 4 base styles
@@ -274,7 +318,8 @@ h3 {
 h4 {
   font-size: 1rem;
   font-weight: normal;
-  line-height: 1.2; }
+  line-height: 1.2;
+}
 
 /*------------------------------------*\
     #FORMS
@@ -286,13 +331,16 @@ h4 {
  * Input placeholder text base styles
  */
 ::-webkit-input-placeholder {
-  color: #808080; }
+  color: #808080;
+}
 
 ::-moz-placeholder {
-  color: #808080; }
+  color: #808080;
+}
 
 :-ms-input-placeholder {
-  color: #808080; }
+  color: #808080;
+}
 
 /**
  * Fieldset base styles
@@ -300,13 +348,15 @@ h4 {
 fieldset {
   border: 0;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Legend base styles
  */
 legend {
-  margin-bottom: 0.25rem; }
+  margin-bottom: 0.25rem;
+}
 
 /**
  * Label base styles
@@ -314,7 +364,8 @@ legend {
 label {
   display: block;
   padding-bottom: 0.25rem;
-  color: #131313; }
+  color: #131313;
+}
 
 /**
  * Add font size 100% of form element and margin 0 to these elements
@@ -325,13 +376,15 @@ select,
 textarea {
   font-family: inherit;
   font-size: 1rem;
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Text area base styles
  */
 textarea {
-  resize: none; }
+  resize: none;
+}
 
 /**
  * Input  and text area base styles
@@ -341,10 +394,12 @@ textarea {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #444;
-  background: #fff; }
-  input:focus,
-  textarea:focus {
-    border-color: #131313; }
+  background: #fff;
+}
+input:focus,
+textarea:focus {
+  border-color: #131313;
+}
 
 /**
  * Remove webkit appearance styles from these elements
@@ -357,7 +412,8 @@ input[type="url"],
 input[type="number"],
 textarea {
   -webkit-appearance: none;
-  display: block; }
+  display: block;
+}
 
 /**
  * Checkbox and radio button base styles
@@ -366,14 +422,16 @@ input[type="checkbox"],
 input[type="radio"] {
   width: auto;
   margin-right: 0.3rem;
-  border-color: #444; }
+  border-color: #444;
+}
 
 /**
  * Search input base styles
  */
 input[type="search"] {
   -webkit-appearance: none;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 /**
  * Select
@@ -386,9 +444,11 @@ select {
   border: 1px solid #444;
   padding: 0.5rem;
   background: #fff;
-  color: #131313; }
-  select:focus {
-    border-color: #131313; }
+  color: #131313;
+}
+select:focus {
+  border-color: #131313;
+}
 
 /*------------------------------------*\
     #BUTTONS
@@ -398,7 +458,8 @@ select {
  * 1) These should be styled using c-btn
  */
 button {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /*------------------------------------*\
     #MAIN ELEMENT
@@ -406,9 +467,10 @@ button {
 /**
  * Main element
  */
-[role=main] {
+[role="main"] {
   display: block;
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 /*------------------------------------*\
     #MEDIA
@@ -419,7 +481,8 @@ button {
  */
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /*------------------------------------*\
     #TEXT
@@ -428,7 +491,8 @@ img {
  * Paragraph base styles
  */
 p {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
 
 /**
  * Blockquote base styles
@@ -438,7 +502,8 @@ blockquote {
   border-left: 1px solid #808080;
   color: #808080;
   padding-left: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
 
 /**
  * Horizontal rule base styles
@@ -447,7 +512,8 @@ hr {
   border: 0;
   height: 1px;
   background: #808080;
-  margin: 1rem 0; }
+  margin: 1rem 0;
+}
 
 /**
  * Selection styles
@@ -455,12 +521,14 @@ hr {
 ::-moz-selection {
   color: #131313;
   background: #ddd;
-  /* Gecko Browsers */ }
+  /* Gecko Browsers */
+}
 
 ::selection {
   color: #131313;
   background: #ddd;
-  /* WebKit/Blink Browsers */ }
+  /* WebKit/Blink Browsers */
+}
 
 /**
  * Code base styles
@@ -471,7 +539,8 @@ code {
   border: 1px solid #ddd;
   padding: 0.2rem 0.5rem;
   line-height: 1.2;
-  font-size: 0.85rem; }
+  font-size: 0.85rem;
+}
 
 /**
  * Preformatted text base styles
@@ -484,9 +553,11 @@ pre {
   overflow-x: auto;
   /**
 	 * Remove border from code within preformatted text block
-	 */ }
-  pre code {
-    border: 0; }
+	 */
+}
+pre code {
+  border: 0;
+}
 
 /**
  * Code with languages associated with them
@@ -494,7 +565,8 @@ pre {
  */
 code[class*="language-"],
 pre[class*="language-"] {
-  font-family: monospace !important; }
+  font-family: monospace !important;
+}
 
 /*------------------------------------*\
     #TABLES
@@ -505,19 +577,22 @@ pre[class*="language-"] {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 /**
  * Table header cell
  */
 th {
-  text-align: left; }
+  text-align: left;
+}
 
 /**
  * Table row
  */
 tr {
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 /*------------------------------------*\
     #LAYOUT
@@ -531,7 +606,8 @@ tr {
  *    to achieve a comfortable line length
  */
 .l-linelength-container {
-  max-width: 36rem; }
+  max-width: 36rem;
+}
 
 /*------------------------------------*\
     #GRID
@@ -548,7 +624,8 @@ tr {
  */
 .u-is-hidden {
   display: none !important;
-  visibility: hidden !important; }
+  visibility: hidden !important;
+}
 
 /**
  * Is Visibly Hidden
@@ -561,7 +638,8 @@ tr {
   height: 1px;
   padding: 0;
   border: 0;
-  clip: rect(1px, 1px, 1px, 1px); }
+  clip: rect(1px, 1px, 1px, 1px);
+}
 
 /*------------------------------------*\
     #SPACING
@@ -571,247 +649,288 @@ tr {
  * 1) Force margin bottom of 0
  */
 .u-margin-bottom-none {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+}
 
 /**
  * Margin bottom small
  * 1) Force margin bottom of $spacing-small variable
  */
 .u-margin-bottom-small {
-  margin-bottom: 1rem !important; }
+  margin-bottom: 1rem !important;
+}
 
 /**
  * Margin bottom
  * 1) Force margin bottom of $spacing variable
  */
 .u-margin-bottom {
-  margin-bottom: 1rem !important; }
+  margin-bottom: 1rem !important;
+}
 
 /**
  * Margin bottom large
  * 1) Force margin bottom of $spacing-large variable
  */
 .u-margin-bottom-large {
-  margin-bottom: 2rem !important; }
+  margin-bottom: 2rem !important;
+}
 
 .u-margin-bottom-large-to-xxl {
-  margin-bottom: 2rem !important; }
-  @media all and (min-width: 60em) {
-    .u-margin-bottom-large-to-xxl {
-      margin-bottom: 8rem !important; } }
+  margin-bottom: 2rem !important;
+}
+@media all and (min-width: 60em) {
+  .u-margin-bottom-large-to-xxl {
+    margin-bottom: 8rem !important;
+  }
+}
 
 /**
  * Margin top none
  * 1) Force margin top of 0
  */
 .u-margin-top-none {
-  margin-top: 0 !important; }
+  margin-top: 0 !important;
+}
 
 /**
  * Margin top small
  * 1) Force margin top of $spacing-small variable
  */
 .u-margin-top-small {
-  margin-top: 1rem !important; }
+  margin-top: 1rem !important;
+}
 
 /**
  * Margin top
  * 1) Force margin top of $spacing variable
  */
 .u-margin-top {
-  margin-top: 1rem !important; }
+  margin-top: 1rem !important;
+}
 
 /**
  * Margin top large
  * 1) Force margin top of $spacing-large variable
  */
 .u-margin-top-large {
-  margin-top: 2rem !important; }
+  margin-top: 2rem !important;
+}
 
 .u-margin-top-booking {
-  margin-top: 28rem !important; }
+  margin-top: 28rem !important;
+}
 
 /**
  * Margin right none
  * 1) Force margin right of 0
  */
 .u-margin-right-none {
-  margin-right: 0 !important; }
+  margin-right: 0 !important;
+}
 
 /**
  * Margin right small
  * 1) Force margin right of $spacing-small variable
  */
 .u-margin-right-small {
-  margin-right: 1rem !important; }
+  margin-right: 1rem !important;
+}
 
 /**
  * Margin right
  * 1) Force margin right of $spacing variable
  */
 .u-margin-right {
-  margin-right: 1rem !important; }
+  margin-right: 1rem !important;
+}
 
 /**
  * Margin right large
  * 1) Force margin right of $spacing-large variable
  */
 .u-margin-right-large {
-  margin-right: 2rem !important; }
+  margin-right: 2rem !important;
+}
 
 /**
  * Margin left none
  * 1) Force margin left of 0
  */
 .u-margin-left-none {
-  margin-left: 0 !important; }
+  margin-left: 0 !important;
+}
 
 /**
  * Margin left small
  * 1) Force margin left of $spacing-small variable
  */
 .u-margin-left-small {
-  margin-left: 1rem !important; }
+  margin-left: 1rem !important;
+}
 
 /**
  * Margin left
  * 1) Force margin left of $spacing variable
  */
 .u-margin-left {
-  margin-left: 1rem !important; }
+  margin-left: 1rem !important;
+}
 
 /**
  * Margin left large
  * 1) Force margin left of $spacing-large variable
  */
 .u-margin-left-large {
-  margin-left: 2rem !important; }
+  margin-left: 2rem !important;
+}
 
 /**
  * Center display block contents
  */
 .u-margin-center {
-  margin: 0 auto !important; }
+  margin: 0 auto !important;
+}
 
 /**
  * Padding none
  */
 .u-padding-none {
-  padding: 0 !important; }
+  padding: 0 !important;
+}
 
 /**
  * Padding small
  */
 .u-padding-small {
-  padding: 1rem !important; }
+  padding: 1rem !important;
+}
 
 /**
  * Padding
  */
 .u-padding {
-  padding: 1rem !important; }
+  padding: 1rem !important;
+}
 
 /**
  * Padding large
  */
 .u-padding-large {
-  padding: 2rem !important; }
+  padding: 2rem !important;
+}
 
 /**
  * Padding top none
  */
 .u-padding-top-none {
-  padding-top: 0 !important; }
+  padding-top: 0 !important;
+}
 
 /**
  * Padding top small
  */
 .u-padding-top-small {
-  padding-top: 1rem !important; }
+  padding-top: 1rem !important;
+}
 
 /**
  * Padding top
  */
 .u-padding-top {
-  padding-top: 1rem !important; }
+  padding-top: 1rem !important;
+}
 
 /**
  * Padding top large
  */
 .u-padding-top-large {
-  padding-top: 2rem !important; }
+  padding-top: 2rem !important;
+}
 
 /**
  * Padding bottom none
  */
 .u-padding-bottom-none {
-  padding-bottom: 0 !important; }
+  padding-bottom: 0 !important;
+}
 
 /**
  * Padding bottom small
  */
 .u-padding-bottom-small {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+}
 
 /**
  * Padding bottom
  */
 .u-padding-bottom {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+}
 
 /**
  * Padding bottom large
  */
 .u-padding-bottom-large {
-  padding-bottom: 2rem !important; }
+  padding-bottom: 2rem !important;
+}
 
 /**
  * Padding right none
  */
 .u-padding-right-none {
-  padding-right: 0 !important; }
+  padding-right: 0 !important;
+}
 
 /**
  * Padding right small
  */
 .u-padding-right-small {
-  padding-right: 1rem !important; }
+  padding-right: 1rem !important;
+}
 
 /**
  * Padding right
  */
 .u-padding-right {
-  padding-right: 1rem !important; }
+  padding-right: 1rem !important;
+}
 
 /**
  * Padding right large
  */
 .u-padding-right-large {
-  padding-right: 2rem !important; }
+  padding-right: 2rem !important;
+}
 
 /**
  * Padding left none
  */
 .u-padding-left-none {
-  padding-left: 0 !important; }
+  padding-left: 0 !important;
+}
 
 /**
  * Padding left small
  */
 .u-padding-left-small {
-  padding-left: 1rem !important; }
+  padding-left: 1rem !important;
+}
 
 /**
  * Padding left
  */
 .u-padding-left {
-  padding-left: 1rem !important; }
+  padding-left: 1rem !important;
+}
 
 /**
  * Padding left large
  */
 .u-padding-left-large {
-  padding-left: 2rem !important; }
+  padding-left: 2rem !important;
+}
 
 /*------------------------------------*\
     #COMPONENTS
@@ -824,7 +943,8 @@ tr {
  */
 .c-icon {
   height: 1rem;
-  width: 1rem; }
+  width: 1rem;
+}
 
 /*------------------------------------*\
     #CARD
@@ -837,10 +957,13 @@ tr {
   border: 1px solid #bbb;
   padding: 1rem;
   max-width: 27rem;
-  transition: all 0.15s ease-out; }
-  .c-card:hover, .c-card:focus {
-    border-color: #666;
-    background: #f9f9f9; }
+  transition: all 0.15s ease-out;
+}
+.c-card:hover,
+.c-card:focus {
+  border-color: #666;
+  background: #f9f9f9;
+}
 
 /*------------------------------------*\
     #BUTTONS
@@ -860,9 +983,12 @@ tr {
   padding: 1rem 2rem;
   border: 0;
   text-align: center;
-  transition: all 0.15s ease-out; }
-  .c-btn:hover, .c-btn:focus {
-    background: #808080; }
+  transition: all 0.15s ease-out;
+}
+.c-btn:hover,
+.c-btn:focus {
+  background: #808080;
+}
 
 /*
  * Inner container wrapper
@@ -873,7 +999,8 @@ tr {
 .c-btn__inner {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 /*
  * Button icon
@@ -882,7 +1009,8 @@ tr {
   width: 1rem;
   height: 1rem;
   fill: #fff;
-  transition: fill 0.15s ease-out; }
+  transition: fill 0.15s ease-out;
+}
 
 /*------------------------------------*\
     #FIELDS
@@ -891,7 +1019,8 @@ tr {
  * 1) Consists of a label, form control, and an optional note about the field.
  */
 .c-field {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 /**
  * Field label
@@ -899,13 +1028,15 @@ tr {
 .c-field__label {
   margin-bottom: 0.25rem;
   font-size: 1rem;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Field body
  */
 .c-field__body {
-  position: relative; }
+  position: relative;
+}
 
 /**
  * Field note
@@ -913,7 +1044,8 @@ tr {
 .c-field__note {
   display: inline-block;
   font-size: 0.75rem;
-  color: #808080; }
+  color: #808080;
+}
 
 /*------------------------------------*\
     #LOGO
@@ -922,19 +1054,22 @@ tr {
  * Branding image or text of the site
  */
 .c-logo {
-  max-width: 14rem; }
+  max-width: 14rem;
+}
 
 /**
  * Logo link
  */
 .c-logo__link {
-  display: block; }
+  display: block;
+}
 
 /**
  * Logo image
  */
 .c-logo__img {
-  display: block; }
+  display: block;
+}
 
 /*------------------------------------*\
     #GRID
@@ -946,7 +1081,8 @@ tr {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 /*------------------------------------*\
     #LAYOUT CONTAINER
@@ -958,13 +1094,16 @@ tr {
  */
 .l-container {
   max-width: 60rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .c-footer-nav {
-  display: flex; }
+  display: flex;
+}
 
 .c-footer-nav__item {
-  margin-right: 2rem; }
+  margin-right: 2rem;
+}
 
 /*------------------------------------*\
     #PRIMARY NAVIGATION
@@ -973,19 +1112,22 @@ tr {
  * Primary navigation existing in the header and maybe the footer
  */
 .c-primary-nav {
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 /**
  * Primary navigation list
  */
 .c-primary-nav__list {
-  display: flex; }
+  display: flex;
+}
 
 /**
  * Primary navigation item
  */
 .c-primary-nav__item {
-  margin-left: 2rem; }
+  margin-left: 2rem;
+}
 
 /**
  * Primary navigation link
@@ -993,7 +1135,8 @@ tr {
 .c-primary-nav__link {
   display: block;
   padding: 0.5rem 0;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /*------------------------------------*\
     #PAGE HEADER
@@ -1005,14 +1148,16 @@ tr {
  * Page header title
  */
 .c-page-header__title {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 /**
  * Page description
  */
 .c-page-header__description {
   font-size: 1.2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 /*------------------------------------*\
     $FOOTER
@@ -1023,7 +1168,8 @@ tr {
 .c-footer {
   margin-top: 2rem;
   padding: 1rem;
-  background: #eee; }
+  background: #eee;
+}
 
 /*------------------------------------*\
     #HEADER
@@ -1035,24 +1181,29 @@ tr {
   position: relative;
   background: #eee;
   padding: 1rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 /**
  * Header inner
  */
 .c-header__inner {
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 /**
  * Header navigation button
  * 1) Button used to toggle the navigation on/off on small screens
  */
 .c-header__nav-btn {
-  margin-left: auto; }
-  @media all and (min-width: 70em) {
-    .c-header__nav-btn {
-      display: none; } }
+  margin-left: auto;
+}
+@media all and (min-width: 70em) {
+  .c-header__nav-btn {
+    display: none;
+  }
+}
 
 /**
  * Header navigation conntainer
@@ -1062,14 +1213,19 @@ tr {
   display: none;
   /**
 	 * Header navigation conntainer within vertical header
-	 */ }
-  @media all and (min-width: 70em) {
-    .c-header__nav-container {
-      display: block;
-      margin-left: auto; } }
-  @media all and (min-width: 70em) {
-    .c-header--vertical .c-header__nav-container {
-      margin-left: 0; } }
+	 */
+}
+@media all and (min-width: 70em) {
+  .c-header__nav-container {
+    display: block;
+    margin-left: auto;
+  }
+}
+@media all and (min-width: 70em) {
+  .c-header--vertical .c-header__nav-container {
+    margin-left: 0;
+  }
+}
 
 /**
  * Active header nav container
@@ -1085,18 +1241,23 @@ tr {
   padding: 1rem;
   /**
 	 * Active header nav container within vertical header
-	 */ }
-  @media all and (min-width: 70em) {
-    .c-header__nav-container.is-active {
-      display: block;
-      position: static;
-      padding: 0;
-      margin-left: auto;
-      width: inherit; } }
-  @media all and (min-width: 70em) {
-    .c-header--vertical .c-header__nav-container.is-active {
-      margin-left: 0;
-      width: 100%; } }
+	 */
+}
+@media all and (min-width: 70em) {
+  .c-header__nav-container.is-active {
+    display: block;
+    position: static;
+    padding: 0;
+    margin-left: auto;
+    width: inherit;
+  }
+}
+@media all and (min-width: 70em) {
+  .c-header--vertical .c-header__nav-container.is-active {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 
 /*------------------------------------*\
     #CARD LIST
@@ -1107,7 +1268,8 @@ tr {
 .c-card-list {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
 
 /*------------------------------------*\
     #SECTION
@@ -1116,7 +1278,8 @@ tr {
  * 1) Discrete section
  */
 .c-section {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
 
 /*------------------------------------*\
 	#TABLE
@@ -1127,31 +1290,36 @@ tr {
 .c-table {
   margin-bottom: 1rem;
   min-width: 600px;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Table Header
  */
 .c-table__header {
-  background: #eee; }
+  background: #eee;
+}
 
 /**
  * Table Header Cell
  */
 .c-table__header-cell {
-  padding: 0.8rem; }
+  padding: 0.8rem;
+}
 
 /**
  * Table Row
  */
 .c-table__row {
-  border-bottom: 1px solid #eee; }
+  border-bottom: 1px solid #eee;
+}
 
 /**
  * Table Cell
  */
 .c-table__cell {
-  padding: 1.6rem 0.8rem; }
+  padding: 1.6rem 0.8rem;
+}
 
 /**
  * Table Footer
@@ -1160,7 +1328,8 @@ tr {
  * Table Footer Cell
  */
 .c-table__footer-cell {
-  padding: 0.8rem; }
+  padding: 0.8rem;
+}
 
 /*------------------------------------*\
     #TEXT PASSAGE
@@ -1198,45 +1367,60 @@ tr {
 	 */
   /**
 	 * Ordered list within text passage
-	 */ }
-  .c-text-passage p {
-    margin-bottom: 1rem; }
-  .c-text-passage a {
-    text-decoration: underline; }
-  .c-text-passage blockquote {
-    padding-left: 0.8rem;
-    border-left: 3px solid #444;
-    color: #808080;
-    font-size: 1rem; }
-  .c-text-passage h1 {
-    margin-bottom: 1rem; }
-  .c-text-passage h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
-  .c-text-passage h3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
-  .c-text-passage h4 {
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
-  .c-text-passage h5 {
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
-  .c-text-passage h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
-  .c-text-passage ul {
-    list-style: disc;
-    margin-left: 1rem;
-    margin-bottom: 1rem; }
-    .c-text-passage ul li:last-child {
-      margin-bottom: 0; }
-  .c-text-passage ol {
-    list-style: decimal;
-    margin-left: 1rem;
-    margin-bottom: 1rem; }
-    .c-text-passage ol li:last-child {
-      margin-bottom: 0; }
-  .c-text-passage li {
-    margin-bottom: 0.5rem;
-    line-height: 1.6; }
+	 */
+}
+.c-text-passage p {
+  margin-bottom: 1rem;
+}
+.c-text-passage a {
+  text-decoration: underline;
+}
+.c-text-passage blockquote {
+  padding-left: 0.8rem;
+  border-left: 3px solid #444;
+  color: #808080;
+  font-size: 1rem;
+}
+.c-text-passage h1 {
+  margin-bottom: 1rem;
+}
+.c-text-passage h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.c-text-passage h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.c-text-passage h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.c-text-passage h5 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.c-text-passage h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.c-text-passage ul {
+  list-style: disc;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.c-text-passage ul li:last-child {
+  margin-bottom: 0;
+}
+.c-text-passage ol {
+  list-style: decimal;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.c-text-passage ol li:last-child {
+  margin-bottom: 0;
+}
+.c-text-passage li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
