@@ -10,6 +10,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 npm create pattern-lab
 ```
 
+(Note: the `/public` folder is auto-generated.)
+
 For templating syntax, I prefer [Handlebars](https://handlebarsjs.com/guide/) over [Twig](https://twig.symfony.com/).
 
 View patterns: `npm run pl:serve`
