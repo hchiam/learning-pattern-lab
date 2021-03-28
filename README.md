@@ -19,3 +19,5 @@ Patterns be here: `/source/_patterns`
 You can edit the files and the page will reload, and auto-generate the HTML.
 
 You can edit CSS here and see on live reload: `/source/css/style.css`
+
+You can add a pattern by simply adding a new file under ` source/_patterns`, and it'll auto-generate the menu, title, expandable tab, HTML code, etc.
