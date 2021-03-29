@@ -8,7 +8,10 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ```bash
 npm create pattern-lab
+# will use the pattern-lab initializer
 ```
+
+- BTW: `npm create` is an alias for `npm init` <https://stackoverflow.com/a/57133248> so you could run `npm init pattern-lab` instead.
 
 (Note: the `/public` folder is auto-generated.)
 
